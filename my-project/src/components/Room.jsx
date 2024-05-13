@@ -16,7 +16,7 @@ function Room() {
       container: element,
       sharedLinks:[{
         name : 'copy link',
-        url : `http://localhost:5173/room/${roomId}`
+        url : `https://vedio-calling-application.netlify.app/room/${roomId}`
       }],
       scenario:{
         mode: ZegoUIKitPrebuilt.OneONoneCall
